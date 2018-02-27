@@ -1,0 +1,22 @@
+superfaktura.settings:
+  type: config_object
+  label: SF settings
+  mapping:
+    email:
+      type: string
+      label: SFAPI email
+    api_key:
+      type: string
+      label: SFAPI key
+    invoice_name_prefix:
+      type: string
+      label: Invoice name prefix
+    constant:
+      type: string
+      label: Invoice constant
+    specific:
+      type: string
+      label: Invoice specific
+    maturity:
+      type: integer
+      label: Invoice maturity

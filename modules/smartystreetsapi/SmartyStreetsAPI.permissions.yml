@@ -1,0 +1,4 @@
+SmartyStreetsAPI Settings:
+    title: 'Administer SmartyStreetsAPI Settings'
+    description: 'Configure and Apply SmartyStreetsAPI Settings'
+    restrict access: true

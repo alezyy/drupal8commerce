@@ -1,0 +1,14 @@
+name: Address USPS
+type: module
+description: Provides functionality for validation of postal addresses using USPS service.
+# core: 8.x
+package: Field types
+configure: address_usps.usps_settings_form
+dependencies:
+  - address
+
+# Information added by Drupal.org packaging script on 2017-05-20
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'address_usps'
+datestamp: 1495279986

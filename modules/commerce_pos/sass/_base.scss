@@ -1,0 +1,51 @@
+/* POS side bar styles */
+.layout-pos-form{
+  box-sizing: border-box;
+}
+
+.layout-region-pos-main {
+  float: left;
+  width: 66.66%;
+}
+
+.layout-region-pos-sidebar {
+  float: right;
+  width: 29.33%;
+  padding-left: 40px;
+  margin-top: 1em;
+}
+@media screen and (max-width: 1078px) {
+  .layout-region-pos-sidebar {
+    width: 27.33%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .layout-region-pos-main {
+    float: none;
+    width: auto;
+  }
+  .layout-region-pos-sidebar {
+    float: none;
+    width: auto;
+    padding-top:40px;
+    padding-left: 0;
+  }
+}
+
+.layout-region-pos-totals table tr td {
+  font-weight: bold;
+}
+.layout-region-pos-totals table tr td:last-child {
+  width: 35%;
+}
+.layout-region-pos-totals table tr {
+  padding: 0;
+  width: 100%;
+  background-color: #F0F0F0;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #FFFFFF;
+}
+.layout-region-pos-totals table tr:hover {
+  background-color: #F0F0F0;
+}

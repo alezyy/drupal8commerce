@@ -1,0 +1,15 @@
+name: Wallet
+type: module
+description: 'Provides a Wallet User Wise'
+package: Custom
+# core: 8.x
+# These modules are required by the tests, must be available at bootstrap time
+dependencies:
+  - options
+  - entity_reference
+
+# Information added by Drupal.org packaging script on 2017-04-23
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'wallet'
+datestamp: 1492943045

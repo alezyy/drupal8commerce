@@ -1,0 +1,20 @@
+form:
+  version: VERSION
+  css:
+    layout:
+      css/commerce_pos_style.css: {}
+  js:
+    js/commerce_pos.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+jQuery.print:
+  remote: https://github.com/DoersGuild/jQuery.print
+  version: 1.5.1
+  license:
+    name: CC BY 3.0
+    url: https://github.com/DoersGuild/jQuery.print/blob/master/LICENSE
+    gpl-compatible: no
+  js:
+    /libraries/jQuery.print/jQuery.print.js: {}

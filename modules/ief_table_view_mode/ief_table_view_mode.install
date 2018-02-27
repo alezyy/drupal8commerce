@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ */
+
+
+/**
+ * Implements hook_install().
+ */
+function ief_table_view_mode_install() {
+  $entityFieldManager = \Drupal::service('entity_field.manager');
+  $fields = $entityFieldManager->getFieldMapByFieldType('entity_reference');
+  foreach ($fields as $entity_type => $data) {
+    if (ief_table_view_mode_has_manage_display($entity_type)) {
+      
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "require": {
+    "mollie/mollie-api-php": {
+      "version": "1.9.3",
+      "url": "https://github.com/mollie/mollie-api-php/archive/v1.9.3.zip"
+    }
+  }
+}

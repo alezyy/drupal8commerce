@@ -1,0 +1,13 @@
+name: Product Choice
+type: module
+description: Product choice lists and terms for Commerce Product fields
+package: Commerce Extras
+# core: 8.x
+dependencies:
+  - commerce:commerce_product
+
+# Information added by Drupal.org packaging script on 2017-03-24
+version: '8.x-1.0'
+core: '8.x'
+project: 'product_choice'
+datestamp: 1490323985

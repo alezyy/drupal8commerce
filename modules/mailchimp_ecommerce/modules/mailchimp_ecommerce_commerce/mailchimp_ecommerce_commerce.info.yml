@@ -1,0 +1,19 @@
+name: 'MailChimp eCommerce Commerce'
+description: 'Integrates Drupal Commerce with MailChimp eCommerce.'
+package: MailChimp
+# core: 8.x
+dependencies:
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_order
+  - commerce_price
+  - commerce_product
+  - mailchimp_ecommerce
+type: module
+
+# Information added by Drupal.org packaging script on 2017-12-27
+version: '8.x-1.2'
+core: '8.x'
+project: 'mailchimp_ecommerce'
+datestamp: 1514411286

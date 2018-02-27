@@ -1,0 +1,14 @@
+name: Commerce Mollie
+type: module
+description: 'Provides Commerce integration for Mollie Payments.'
+package: Commerce (contrib)
+# core: 8.x
+dependencies:
+  - commerce
+  - commerce:commerce_payment
+
+# Information added by Drupal.org packaging script on 2017-11-13
+version: '8.x-1.2'
+core: '8.x'
+project: 'commerce_mollie'
+datestamp: 1510604293

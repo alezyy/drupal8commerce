@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * @file
+ * Provides module functionality.
+ */
+
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Field\BaseFieldDefinition;
+
+/**
+ *  * Implements hook_entity_base_field_info().
+ */
+function commerce_avatax_entity_base_field_info(EntityTypeInterface $entity_type) {
+  if ($entity_type->id() === 'commerce_store') {
+    $fields['avatax_company_code'] = BaseFieldDefinition::create('string')
+      ->setLabel(t('Avatax company code'))
+      ->setDescription(t('The company code to send to Avatax when calculating taxes'))
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayOptions('form', [
+        'type' => 'string_textfield',
+        'weight' => 0,
+      ]);
+    return $fields;
+  }
+  if ($entity_type->id() === 'commerce_product_variation') {
+    $fields['avatax_tax_code'] = BaseFieldDefinition::create('string')
+      ->setLabel(t('Avatax tax code'))
+      ->setDescription(t('Tax code for the product'))
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayOptions('form', [
+        'type' => 'string_textfield',
+        'weight' => 0,
+      ])
+      ->setDefaultValueCallback('commerce_avatax_default_tax_code_value');
+    return $fields;
+  }
+}
+
+
+/**
+ * Default value callback for the avatax_tax_code field.
+ *
+ * @return array
+ *   The default field value.
+ */
+function commerce_avatax_default_tax_code_value() {
+  $config = \Drupal::configFactory()->get('commerce_avatax.settings');
+  return $config->get('tax_code');
+}

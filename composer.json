@@ -6,7 +6,13 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/address": "~1.0"
+        "drupal/address": "~1.0",
+        "drupal/stripe": "^1.0@beta",
+        "drupal/smartystreetsapi": "2.x-dev",
+        "drupal/visualn_commerce": "1.x-dev",
+        "swiftmailer/swiftmailer": "5.4.9",
+        "phpoffice/phpexcel": "^1.8",
+        "drupal/geoip": "2.x-dev"
     },
     "replace": {
         "drupal/core": "^8.4"

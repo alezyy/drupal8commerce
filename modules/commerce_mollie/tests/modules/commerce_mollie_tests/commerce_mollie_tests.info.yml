@@ -1,0 +1,13 @@
+name: Commerce Mollie Test
+type: module
+description: "Provide Mollie testing functions."
+# core: 8.x
+package: Testing
+dependencies:
+  - commerce_mollie
+
+# Information added by Drupal.org packaging script on 2017-11-13
+version: '8.x-1.2'
+core: '8.x'
+project: 'commerce_mollie'
+datestamp: 1510604293

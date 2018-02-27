@@ -1,0 +1,14 @@
+name: commerce_pos_receipt
+description: Provides receipts printing for Commerce Point of Sale
+type: module
+# core: 8.x
+package: Commerce (POS)
+configure: commerce_pos_receipt.settings
+dependencies:
+  - commerce_pos:commerce_pos
+
+# Information added by Drupal.org packaging script on 2018-02-21
+version: '8.x-2.0-beta1+3-dev'
+core: '8.x'
+project: 'commerce_pos'
+datestamp: 1519177398

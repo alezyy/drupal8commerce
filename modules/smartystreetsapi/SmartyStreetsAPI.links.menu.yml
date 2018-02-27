@@ -1,0 +1,5 @@
+SmartyStreetsAPI.admin:
+  title: 'SmartyStreetsAPI Settings'
+  description: 'Configure SmartyStreetsAPI Settings'
+  route_name: SmartyStreetsAPI.admin
+  parent: system.admin_config_development

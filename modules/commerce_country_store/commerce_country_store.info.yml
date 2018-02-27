@@ -1,0 +1,14 @@
+name: Commerce Country Store
+description: Enable having one store per country in Drupal Commerce
+
+type: module
+# core: 8.x
+
+dependencies:
+  - commerce_store
+  - geoip
+# Information added by Drupal.org packaging script on 2017-05-24
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'commerce_country_store'
+datestamp: 1495619585

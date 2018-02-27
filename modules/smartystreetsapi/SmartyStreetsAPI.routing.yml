@@ -1,0 +1,8 @@
+SmartyStreetsAPI.admin:
+  path: '/admin/config/SmartyStreetsAPI'
+  defaults:
+    _form: '\Drupal\SmartyStreetsAPI\Form\SmartyStreetsAPISettings'
+    _title: 'SmartyStreetsAPI Settings'
+  requirements:
+    _permission: 'SmartyStreetsAPI Settings'
+    

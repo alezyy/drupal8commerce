@@ -1,0 +1,13 @@
+name: SuperFaktura
+type: module
+description: SFAPI implementation
+# core: 8.x
+package: Commerce
+dependencies:
+  - commerce
+
+# Information added by Drupal.org packaging script on 2018-02-11
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'superfaktura'
+datestamp: 1518379085
