@@ -1,0 +1,13 @@
+name: 'Commerce Shipping Stepped By Item'
+type: module
+description: 'Provides a shipping method with fixed rates stepped by item quantity'
+package: Commerce (contrib)
+# core: 8.x
+dependencies:
+  - commerce_shipping
+
+# Information added by Drupal.org packaging script on 2017-10-06
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'commerce_shipping_stepped_by_item'
+datestamp: 1507298948

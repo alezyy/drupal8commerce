@@ -1,0 +1,13 @@
+name: Sendwithus
+type: module
+description: Sendwithus integration
+# core: 8.x
+php: 7.1
+dependencies:
+  - key
+
+# Information added by Drupal.org packaging script on 2018-02-22
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'sendwithus'
+datestamp: 1519285088

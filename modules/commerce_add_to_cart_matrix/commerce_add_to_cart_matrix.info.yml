@@ -1,0 +1,14 @@
+name: 'Commerce add to cart matrix'
+type: module
+description: 'Gives a new formatter for products to display a variation matrix'
+# core: 8.x
+package: 'Commerce'
+dependencies:
+  - commerce_product
+  - commerce_cart
+
+# Information added by Drupal.org packaging script on 2018-02-26
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'commerce_add_to_cart_matrix'
+datestamp: 1519666684

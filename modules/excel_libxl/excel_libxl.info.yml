@@ -1,0 +1,14 @@
+name: Excel LibXL
+type: module
+description: Excel functionality for Drupal (Commerce LibXL extension for PHP)
+# core: 8.x
+package: Web services
+dependencies:
+  - rest
+  - serialization
+
+# Information added by Drupal.org packaging script on 2017-08-15
+version: '8.x-1.0'
+core: '8.x'
+project: 'excel_libxl'
+datestamp: 1502830748

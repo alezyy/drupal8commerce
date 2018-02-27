@@ -1,0 +1,29 @@
+{
+    "name": "drupal/commerce_product_review",
+    "type": "drupal-module",
+    "description": "Provides review feature for Drupal Commerce products.",
+    "homepage": "https://drupal.org/project/commerce_product_review",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "~8.4",
+        "drupal/commerce": "~2.3"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "gjunge/rateit.js",
+                "type": "drupal-library",
+                "version": "1.1.1",
+                "dist": {
+                    "url": "https://github.com/gjunge/rateit.js/archive/1.1.1.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "suggest": {
+        "gjunge/rateit.js": "The rateit.js library is needed for the stars visualization."
+    },
+    "minimum-stability": "dev"
+}

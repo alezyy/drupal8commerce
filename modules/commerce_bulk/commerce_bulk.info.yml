@@ -1,0 +1,14 @@
+name: 'Commerce Bulk'
+type: module
+description: 'Provides a service for bulk creation of Drupal Commerce entities.'
+# core: 8.x
+package: Commerce (contrib)
+dependencies:
+  - commerce:commerce_checkout
+  - drupal:readmehelp
+
+# Information added by Drupal.org packaging script on 2018-02-05
+version: '8.x-1.0-alpha3'
+core: '8.x'
+project: 'commerce_bulk'
+datestamp: 1517820492

@@ -1,0 +1,15 @@
+name: 'Commerce License Og Role'
+type: module
+description: 'Provides a Commerce License type which grants roles in Organic Groups.'
+# core: 8.x
+package: 'Commerce (contrib)'
+dependencies:
+  - og
+  - commerce_license
+  - dynamic_entity_reference
+
+# Information added by Drupal.org packaging script on 2018-02-02
+version: '8.x-2.0-alpha3'
+core: '8.x'
+project: 'commerce_license_og_role'
+datestamp: 1517581687

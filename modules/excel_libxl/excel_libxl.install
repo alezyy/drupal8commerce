@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for Excel LibXL.
+ */
+
+
+/**
+ * Implements hook_requirements().
+ */
+function excel_libxl_requirements($phase) {
+  $requirements = [];
+  if ($phase == 'install') {
+    if (!extension_loaded('excel')) {
+      $requirements['excel_libxl'] = [
+        'description' => t('Excel LibXL module requires the Excel PHP extension. www.libxl.com'),
+        'severity' => REQUIREMENT_ERROR,
+      ];
+    }
+  }
+  return $requirements;
+}

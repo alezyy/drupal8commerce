@@ -1,0 +1,12 @@
+name: Price
+type: module
+description: 'Defines the Price field with different modifications and the Currency entity.'
+package: Field types
+# core: 8.x
+
+
+# Information added by Drupal.org packaging script on 2017-09-22
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'price'
+datestamp: 1506047646

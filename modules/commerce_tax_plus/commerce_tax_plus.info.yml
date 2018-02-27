@@ -1,0 +1,15 @@
+name: Commerce Tax Plus
+description: Extends sales tax types in commerce 2.0 adding city/county limits and address validation.
+package: Custom
+type: module
+# core: 8.x
+dependencies:
+  - smartystreetsapi:SmartyStreetsAPI
+  - commerce:commerce
+  - commerce:commerce_checkout
+  - commerce:commerce_tax
+# Information added by Drupal.org packaging script on 2017-11-28
+version: '8.x-2.x-dev'
+core: '8.x'
+project: 'commerce_tax_plus'
+datestamp: 1511847487
