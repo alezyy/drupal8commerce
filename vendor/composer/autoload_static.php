@@ -36,6 +36,10 @@ class ComposerStaticInitDrupal8
             'Wikimedia\\Composer\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
+        'U' => 
+        array (
+            'Ups\\' => 4,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -154,6 +158,10 @@ class ComposerStaticInitDrupal8
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Ups\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gabrielbull/ups-api/src',
         ),
         'Twig\\' => 
         array (

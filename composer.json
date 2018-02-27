@@ -12,7 +12,8 @@
         "drupal/visualn_commerce": "1.x-dev",
         "swiftmailer/swiftmailer": "5.4.9",
         "phpoffice/phpexcel": "^1.8",
-        "drupal/geoip": "2.x-dev"
+        "drupal/geoip": "2.x-dev",
+        "gabrielbull/ups-api": "~0.7"
     },
     "replace": {
         "drupal/core": "^8.4"
